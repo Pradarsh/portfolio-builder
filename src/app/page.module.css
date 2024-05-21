@@ -1,0 +1,38 @@
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+	height: calc(100vh - 80px);
+	overflow: hidden;
+}
+
+.main-form-card {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 40px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.form-con {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.form-con .from-list {
+	flex: 1;
+	overflow: scroll;
+}
+
+.form-title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.page-header {
+	text-align: center;
+}

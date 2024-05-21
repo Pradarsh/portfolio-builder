@@ -1,0 +1,29 @@
+.landing-con {
+	display: flex;
+	justify-content: center;
+	min-height: 70vh;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.landing-con .name {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.row,
+.socialRow {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.IconRow {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+.socialRow {
+	cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.input-field {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.input-row {
+	display: flex;
+	gap: 20px;
+}
+
+.textarea-field {
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 10px;
+	min-height: 100px;
+}
+
+.btn-con {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #8c8c8c;
+	margin-bottom: 20px;
+}
+
+.delete-con {
+	display: flex;
+	justify-content: end;
+}
+
+.no-data {
+	text-align: center;
+	font-size: larger;
+	margin: 40px;
+}
